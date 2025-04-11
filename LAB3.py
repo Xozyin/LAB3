@@ -48,7 +48,6 @@ print("\n4. Производная dz/dx:\n", x_with_grad.grad)
 # Задание 2
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-import matplotlib.pyplot as plt  # matplotlib для построения графиков
 import torch.nn as nn  # Модуль для создания нейронных сетей
 import torch.optim as optim  # Модуль для оптимизации
 
